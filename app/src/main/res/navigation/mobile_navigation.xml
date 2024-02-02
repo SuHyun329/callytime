@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_alarm">
+
+    <fragment
+        android:id="@+id/navigation_alarm"
+        android:name="com.example.guru_callytime.ui.alarm.AlarmFragment"
+        android:label="@string/title_alarm"
+        tools:layout="@layout/fragment_alarm" />
+
+    <fragment
+        android:id="@+id/navigation_calendar"
+        android:name="com.example.guru_callytime.ui.calendar.CalendarFragment"
+        android:label="@string/title_calendar"
+        tools:layout="@layout/fragment_calendar" />
+
+    <fragment
+        android:id="@+id/navigation_memo"
+        android:name="com.example.guru_callytime.ui.notifications.NotificationsFragment"
+        android:label="@string/title_memo"
+        tools:layout="@layout/fragment_memo" />
+</navigation>

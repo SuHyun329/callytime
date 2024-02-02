@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GURU_callytime</string>
+    <string name="title_activity_main_navi">MainActivity</string>
+    <string name="title_alarm">Alarm</string>
+    <string name="title_calendar">Calendar</string>
+    <string name="title_memo">Memo</string>
+    <string name="change_time">알람 설정</string>
+    <string name="on_alarm">알람 켜기</string>
+
+</resources>
